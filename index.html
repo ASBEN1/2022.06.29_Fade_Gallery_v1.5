@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fade Gallery</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <section id="gallery">
+
+    <h2>FADE GALLERY</h2>
+
+    <div id="slider">
+      <img src="./images/01.jpg" alt="1">
+      <img src="./images/02.jpg" alt="2">
+      <img src="./images/03.jpg" alt="3">
+      <img src="./images/04.jpg" alt="4">
+      <img src="./images/05.jpg" alt="5">
+    </div>
+
+    <div class="arrowUI">
+      <button class="pre">PREV</button>
+      <button class="next">NEXT</button>
+    </div>
+
+    <div class="indicator">
+      <div class="shape">
+        <a href="#" onclick="changeSlider(0);" class="circle"></a>
+        <a href="#" onclick="changeSlider(1);" class="circle"></a>
+        <a href="#" onclick="changeSlider(2);" class="circle"></a>
+        <a href="#" onclick="changeSlider(3);" class="circle"></a>
+        <a href="#" onclick="changeSlider(4);" class="circle"></a>
+      </div>
+    </div>
+
+    <div class="direction">
+      <div class="arrows">
+        <a href="#" class="arrow1"><img src="./images/PREV ARROW.png" alt=""></a>
+        <a href="#" class="arrow2"><img src="./images/NEXT ARROW.png" alt=""></a>
+      </div>
+    </div>
+
+  </section>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

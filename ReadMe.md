@@ -1,5 +1,5 @@
-# Fade Effect Gallery
-
+# Fade Effect Gallery<br>
+https://asben1.github.io/2022.06.29_Fade_Gallery_v1.5/
 ## 기능
 1. 이전 / 다음 이미지 보기
 2. 인디케이터(indicator) 버튼 -> 클릭시 이미지 변경
